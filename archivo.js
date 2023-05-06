@@ -94,8 +94,6 @@ input.addEventListener("change", () => {
                     for(const propiedad of palabras){
                         if (propiedad.value === elemento) {
                             console.info(`\t\t|Elemento|  ${elemento}  |Propiedad|  ${propiedad.name}  |Código|  ${propiedad.cod}`);              
-                        }else{
-                            console.info(`\t\t|Elemento|  ${elemento}  Error de Sintaxis`); 
                         }
                 }
             }              
