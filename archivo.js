@@ -3,7 +3,6 @@ let textarea = document.getElementById('textarea');
 let lines, archivo, i, resultado;
 
 
-//Arreglo con tokens a validar
 
     //const regex = /[a-zA-Z]\>/; // ER para validar el final de una cadena
     //const regex2 = /^[a-zA-Z][a-zA-Z0-9]+(\"\>)+$/; //validar cadena de texto intermedia
