@@ -89,7 +89,7 @@ input.addEventListener("change", () => {
             const nAr = nueArray;
 
             for(const posicion of nAr){
-                console.log("\t\t"+"%cELEMENTOS VÁLIDOS","color:#000;font-size: 10px;background:orange;font-weight: bold;");
+                console.log("\t\t"+"ELEMENTOS VÁLIDOS");
                 for(const elemento of posicion){
                     for(const propiedad of palabras){
                         if (propiedad.value === elemento) {
