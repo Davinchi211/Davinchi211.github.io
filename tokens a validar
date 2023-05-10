@@ -1,0 +1,2 @@
+Esta es una prueba
+const arreglo = {animal: 'dinosaur', color:'grey'}
